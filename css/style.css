@@ -40,10 +40,10 @@ header{
     font-weight: 700;
 }
 
-.nav-link{
+header .nav-link{
 	position: relative;
 }
-.nav-link::before{
+header .nav-link::before{
 	content: '';
 	position: absolute;
 	height: 3px;
@@ -54,7 +54,7 @@ header{
 	transition: 0.5s;
 }
 
-.nav-link::after{
+header .nav-link::after{
 	content: '';
 	position: absolute;
 	height: 3px;
@@ -64,7 +64,7 @@ header{
 	right: 0;
 }
 
-.nav-link:hover::before,.nav-link:hover::after{
+header .nav-link:hover::before,.nav-link:hover::after{
 	width: 100%;
 	transition: 0.5s;
 }
@@ -571,4 +571,340 @@ features-5 section css
 .f5-section .h-btn{
 	margin: 0;
 	padding: 16px 50px;
+}
+
+/**************************
+ Pricing section css
+***************************/
+
+
+.Pricing{
+	width: 100%;
+	padding: 80px 0;
+}
+
+
+.pricing-title{
+	text-align: center;
+}
+.pricing-title h2{
+	color: #242f51;
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.pricing-title p{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.price-table{
+	margin-top: 32px;
+	text-align: center;
+}
+
+.price-controller{
+	border: 2px solid #ebebeb;
+	border-radius: 35px;
+	display: inline-block;
+}
+
+.price-btn{
+	font-size: 16px;
+	font-weight: 500;
+	padding: 10px 22px;
+	border: none;
+	background: transparent;
+	color: #898a8e;
+	
+}
+
+.price-active{
+	color: white;
+	background: #2500f9;
+	border-radius: 35px;
+	font-weight: 700;
+}
+
+.pt-table{
+	margin: 70px 0;
+}
+
+.card{
+	border-radius: 8px;
+}
+.card-header{
+	background: #f5f8fa !important;
+	padding: 25px;
+	border: none;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+.card-header h2{
+	color: #242f51;
+	font-weight: 600;
+	font-size: 60px;
+	margin: 32px 0 18px 0;
+}
+
+.card-header h2 span{
+	color: #999ca5;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.card-header strong{
+	color: #242f51;
+	font-size: 20px;
+}
+
+.card-header p ,.card-body p{
+	color: #999ca5;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.card-body{
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	background: #fff;
+}
+.card-body p{
+	margin: 16px 0;
+}
+.bye-btn{
+	padding: 18px 42px;
+	border: none;
+	background: #2500f9;
+	color: white;
+	border-radius: 35px;
+	font-weight: 600;
+	font-size: 16px;
+	transition: 0.5s;
+}
+
+.bye-btn:hover{
+	background: #fcae61;
+	transition: 0.5s;
+	color: black;
+}
+
+.card-active{
+	border: none;
+	box-shadow: 6px 10px 20px 10px rgb(117 111 111 / 18%);
+}
+
+.trail{
+	margin-top: 20px !important;
+	font-weight: 500 !important;
+	font-size: 16px;
+	color: #320ff9 !important;
+}
+
+
+/**************************
+ testimonial section css
+***************************/
+
+.testimonial{
+	width: 100%;
+	padding: 80px 0;
+}
+
+
+.testimonial-title{
+	text-align: left;
+}
+
+.testimonial-title h2{
+	font-weight: 600;
+	font-size: 40px;
+	color: #242f51;
+}
+
+.testimonial-title p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #616368;
+	margin: 20px 0;
+}
+.star i{
+	color: #ffcc00 !important;
+}
+
+.t-item{
+	    padding: 0 70px 0 0;
+}
+.t-item h5{
+	margin: 20px 0;
+	font-weight: 600;
+	font-size: 20px;
+	color: #242f51;
+}
+
+.t-item p{
+	margin: 20px 0;
+	font-size: 16px;
+	font-weight: 400;
+	color: #616368;
+}
+
+.img-title{
+	margin-top: 10px;
+}
+
+.img-title h6{
+	font-weight: 600;
+	font-size: 16px;
+	color: #242f51;
+}
+
+.img-title p{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+}
+
+
+/**************************
+ feq section css
+***************************/
+
+.feq{
+	width: 100%;
+	padding: 80px 0;
+	border-bottom: 2px solid #f4f4f4;
+}
+
+.feq-title{
+	text-align: center;
+}
+
+.feq-title h2{
+	font-weight: 600;
+	font-size: 40px;
+	color: #242f51;
+}
+
+.feq-title p{
+	margin-top: 30px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #616368;
+}
+
+.feq-item{
+	margin-top: 32px;
+}
+
+.accordion-item{
+	background-color: #f5f7fa !important;
+	border: none;
+	padding: 24px;
+	margin-bottom: 6px;
+}
+.accordion-button{
+	color: #242f51 !importanr;
+	font-weight: 600;
+	background-color: #f5f7fa !important;
+	padding: 0 24px;
+}
+.accordion-button:not(.collapsed){
+	color: #242f51 !importanr;
+	font-weight: 600;
+	background-color: #f5f7fa !important;
+	box-shadow: none;
+	padding: 18px 24px;
+}
+
+.accordion-button{
+	color: #242f51 !important;
+	font-weight: 600 !important;
+	font-size: 20px !important;
+}
+.accordion-button::after{
+	color: #242f51 !important;
+	font-weight: 600 !important;
+	font-size: 20px !important;
+	background-image: url(../image/plus.png)!important;
+}
+
+.accordion-button:not(.collapsed)::after{
+	color: #242f51 !important;
+	font-weight: 600 !important;
+	font-size: 20px !important;
+	background-image: url(../image/minus-sign.png)!important;
+}
+
+.accordion-body{
+	font-size: 16px;
+	font-weight: 400;
+	color: #616368;
+	text-align: left;
+}
+
+
+/**************************
+ footer section css
+***************************/
+
+.footer{
+	width: 100%;
+	padding: 80px 0 0 0;
+}
+
+.footer-title h1{
+	font-size: 48px;
+	font-weight: 600;
+	color: #242f51;
+}
+
+.footer-title p{
+	margin: 20px 0;
+	color: #616368;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+
+/**************************
+ last-part section css
+***************************/
+
+.f-last{
+	text-align: center;
+	background: #09142e;
+	padding: 80px 0;
+}
+
+.navbar-nav{
+	text-align: center !importrant;
+}
+
+.f-last-part .navbar-nav .nav-link{
+	color: white !important;
+}
+
+
+.f-last-part .nav-link:hover{
+	color: #fcae61 !important;
+}
+
+.last-icon i{
+	margin-top: 30px;
+	font-size: 35px;
+	margin-left: 20px;
+}
+
+.last-icon .fa-hashtag{
+	color: white;
+}
+
+.f-last-part p{
+	color: #3d465a;
+	margin-top: 60px;
 }
